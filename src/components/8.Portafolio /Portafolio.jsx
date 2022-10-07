@@ -13,7 +13,6 @@ import {
   ContentTitle,
   Card2,
   Card3,
-  Card4,
   Wrap,
   Contenido
 } from "./PortafolioElement";

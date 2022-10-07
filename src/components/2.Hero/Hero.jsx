@@ -1,4 +1,4 @@
-import HeroPhoto from "../../assets/joseph-leal-hero.svg";
+import HeroPhoto from "../../assets/joseph-leal-hero.png";
 import ArrowContact from "../../assets/arrow-contact.svg";
 import {
   LineHero,
