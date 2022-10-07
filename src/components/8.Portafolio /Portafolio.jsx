@@ -80,7 +80,7 @@ export default function Portafolio() {
                 </ColTwo>
                 <Content>Algunos de mis trabajos realizados
                   <br />
-                 <span>⚠️ Los proyectos estan en proceso de desarrollo</span>
+                 <span>⚠️ Los proyectos estan en proceso</span>
                 </Content>
               </Contenido>
             </ContentTitle>
