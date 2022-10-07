@@ -41,8 +41,6 @@ export default function Portafolio() {
                 <BgBlack>
                   <CardTitle>El aljibe</CardTitle>
                   <CardContent>
-                    Sitio web de una agentecia es un ejemplo del trabajo que se
-                    realiza.
                   </CardContent>
                   <a href="https://papeleriaelaljibe.com/">
                     <LinkMore>Read more</LinkMore>
@@ -62,8 +60,6 @@ export default function Portafolio() {
                 <BgBlack>
                   <CardTitle>Multi-Container</CardTitle>
                   <CardContent>
-                    Sitio web de una agentecia es un ejemplo del trabajo que se
-                    realiza.
                   </CardContent>
                   <a href="https://multicontainer.com/">
                     <LinkMore>Read more</LinkMore>
@@ -97,8 +93,6 @@ export default function Portafolio() {
                   <BgBlack>
                     <CardTitle>Karcross</CardTitle>
                     <CardContent>
-                      Sitio web de una agentecia es un ejemplo del trabajo que
-                      se realiza.
                     </CardContent>
                     <a href="https://carcrossuruguay.com/">
                       <LinkMore>Read more</LinkMore>

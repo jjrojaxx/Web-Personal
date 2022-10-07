@@ -91,7 +91,7 @@ export default function Herramientas() {
             Object={{
               Title: "Organización",
               Content:
-                "La organización del tiempo es uno de los grandes retos a la hora de trabajar ultilizamos estas herremientas para mejorar el rendimiento el los poryectos.",
+                "La organización del tiempo es uno de los grandes retos a la hora de trabajar ultilizamos estas herremientas para mejorar el rendimiento en los poryectos.",
               Icons: Notion,
               Alt: "Notion",
             }}

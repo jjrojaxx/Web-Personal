@@ -34,7 +34,7 @@ export default function ProcesoDeDesarrollo() {
           Subtitle: "Fase - 1",
           Title: "Organización en Notion",
           Content:
-            "La organización del tiempo es uno de los grandes retos a la hora de trabajar, planificar proyectos y coordinar equipos se utiliza notion para darte una mejor experiencia la hora de ver los proceso del proyecto desde el diseño hasta el desarrollo.",
+            "La organización del tiempo es uno de los grandes retos a la hora de trabajar, planificar proyectos y coordinar equipos se utiliza notion para darte una mejor experiencia a la hora de ver los procesos del proyecto desde el diseño hasta el desarrollo.",
           Icon: IconNotion,
         }}
       />

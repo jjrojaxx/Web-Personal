@@ -62,7 +62,7 @@ export default function SobreMi() {
                 <AiOutlineInstagram />
               </motion.a>
               <motion.a
-                href="https://www.linkedin.com/in/jos%C3%A9-rojas-294ba520b/"
+                href="https://www.linkedin.com/in/joseph-leal-d2000"
                 target="_blank"
                 whileHover={{ rotate: -9 }}
               >
@@ -70,7 +70,8 @@ export default function SobreMi() {
               </motion.a>
             </Redes>
             <ColTwo>
-              <a href="https://drive.google.com/file/d/11Ye7tDEdHCZSd3li37GmJb4acYmGJpZ_/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/11Ye7tDEdHCZSd3li37GmJb4acYmGJpZ_/view?usp=sharing"
+                target="blank" >
                 <BtnWhite> Curriculum</BtnWhite>
               </a>
             </ColTwo>
