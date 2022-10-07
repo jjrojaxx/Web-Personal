@@ -41,7 +41,7 @@ export default function Hero() {
     },
   };
   return (
-    <Container>
+    <Container id="hero">
       <Wrapper>
         <PhotoHero
           as={motion.div}

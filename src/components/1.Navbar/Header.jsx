@@ -26,7 +26,15 @@ export default function Header() {
     <NavbarContainer>
       <NavbarWrapper>
         <IconLogo>
-          <img src={Logo} alt="" title="Josephleal.com" />
+        <Scroll
+        to="hero"
+        spy={true}
+        smooth={true}
+        offset={-80}
+        duration={500}        
+        >
+          <img src={Logo} alt="Logo" title="Josephleal.com" />
+        </Scroll>
         </IconLogo>
 
         <IconLogoMobile onClick={() => ChangeClick()}>

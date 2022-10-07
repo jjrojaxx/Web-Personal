@@ -20,7 +20,9 @@ import {
 import { ContainerWhiteBlue, TitleSection } from "../GloblaElements";
 import { motion } from "framer-motion";
 
-import ZaaltoHotel from "../../assets/portada-zaalto-hotel.png";
+import portadaOne from "../../assets/portada1.svg";
+import portadaTwo from "../../assets/portada2.svg";
+import portadaThere from "../../assets/portada3.svg";
 
 export default function Portafolio() {
   return (
@@ -28,43 +30,43 @@ export default function Portafolio() {
       <WrapperSection>
         <SeccionTwo>
           <Wrap>
-            <a href="https://fonts.google.com/">
+            <a href="https://papeleriaelaljibe.com/">
               <Card
                 as={motion.div}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.99 }}
               >
                 <Photo>
-                  <img src={ZaaltoHotel} alt="" width="100%" />
+                  <img src={portadaTwo} alt="" width="100%" />
                 </Photo>
                 <BgBlack>
-                  <CardTitle>Zaalto-Hotel</CardTitle>
+                  <CardTitle>El aljibe</CardTitle>
                   <CardContent>
                     Sitio web de una agentecia es un ejemplo del trabajo que se
                     realiza.
                   </CardContent>
-                  <a href="https://fonts.google.com/">
+                  <a href="https://papeleriaelaljibe.com/">
                     <LinkMore>Read more</LinkMore>
                   </a>
                 </BgBlack>
               </Card>
             </a>
-            <a href="https://fonts.google.com/">
+            <a href="https://multicontainer.com/">
               <Card2
                 as={motion.div}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.99 }}
               >
                 <Photo>
-                  <img src={ZaaltoHotel} alt="" width="100%" />
+                  <img src={portadaThere} alt="" width="100%" />
                 </Photo>
                 <BgBlack>
-                  <CardTitle>Zaalto-Hotel</CardTitle>
+                  <CardTitle>Multi-Container</CardTitle>
                   <CardContent>
                     Sitio web de una agentecia es un ejemplo del trabajo que se
                     realiza.
                   </CardContent>
-                  <a href="https://fonts.google.com/">
+                  <a href="https://multicontainer.com/">
                     <LinkMore>Read more</LinkMore>
                   </a>
                 </BgBlack>
@@ -80,51 +82,30 @@ export default function Portafolio() {
                 </ColTwo>
                 <Content>Algunos de mis trabajos realizados
                   <br />
-                 <span>⚠️ Los proyectos estan en proceso</span>
+                 <span>⚠️ Algunos proyectos estan en proceso</span>
                 </Content>
               </Contenido>
             </ContentTitle>
-            <a href="https://fonts.google.com/">
+            <a href="https://carcrossuruguay.com/">
               <Card3
                 as={motion.div}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.99 }}
               >
                   <Photo>
-                    <img src={ZaaltoHotel} alt="" width="100%" />
+                    <img src={portadaOne} alt="" width="100%" />
                   </Photo>
                   <BgBlack>
-                    <CardTitle>Zaalto-Hotel</CardTitle>
+                    <CardTitle>Karcross</CardTitle>
                     <CardContent>
                       Sitio web de una agentecia es un ejemplo del trabajo que
                       se realiza.
                     </CardContent>
-                    <a href="https://fonts.google.com/">
+                    <a href="https://carcrossuruguay.com/">
                       <LinkMore>Read more</LinkMore>
                     </a>
                   </BgBlack>
               </Card3>
-            </a>
-            <a href="https://fonts.google.com/">
-              <Card4
-                as={motion.div}
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.99 }}
-              >
-                <Photo>
-                  <img src={ZaaltoHotel} alt="" width="100%" />
-                </Photo>
-                <BgBlack>
-                  <CardTitle>Zaalto-Hotel</CardTitle>
-                  <CardContent>
-                    Sitio web de una agentecia es un ejemplo del trabajo que se
-                    realiza.
-                  </CardContent>
-                  <a href="https://fonts.google.com/">
-                    <LinkMore>Read more</LinkMore>
-                  </a>
-                </BgBlack>
-              </Card4>
             </a>
           </Wrap>
         </SeccionTwo>
