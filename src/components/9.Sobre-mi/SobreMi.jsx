@@ -30,13 +30,10 @@ export default function SobreMi() {
           <Contenido>
             <Title>¿ Sobre mi ?</Title>
             <Content>
-              Hola a todos mi nombre es Joseph Leal un emprendedor por la
-              tecnologia emepece en el 2020 con html css y Javascript creando
-              sitos webs sencillos.
+            Hola a todos mi nombre es Joseph Leal un emprendedor por la tecnología empecé en el 2020 con html, css y Javascript creando sitos webs sencillos.
               <br />
               <br />
-              Mi enfoque principal por ahora es emprender como programador
-              estableciendo mi creativadad y habilidades.
+              Mi enfoque principal por ahora es emprender como programador estableciendo mi creatividad y habilidades.
             </Content>
 
             <Redes>

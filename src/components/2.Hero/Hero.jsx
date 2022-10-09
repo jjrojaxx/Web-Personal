@@ -83,8 +83,7 @@ export default function Hero() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ delay: 2.4 }}
           >
-            Programador fron-end dedicado, me especializo en la maquetación y
-            desarrollo de funciones creativas para el usuario...
+            Programador Frontend dedicado, me especializo en la maquetación y desarrollo de funciones creativas para el usuario... 
           </ContentHero>
           <Redes
             as={motion.div}

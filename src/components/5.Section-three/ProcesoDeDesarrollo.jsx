@@ -34,7 +34,7 @@ export default function ProcesoDeDesarrollo() {
           Subtitle: "Fase - 1",
           Title: "Organización en Notion",
           Content:
-            "La organización del tiempo es uno de los grandes retos a la hora de trabajar, planificar proyectos y coordinar equipos se utiliza notion para darte una mejor experiencia a la hora de ver los procesos del proyecto desde el diseño hasta el desarrollo.",
+              "La organización del tiempo es uno de los grandes retos a la hora de trabajar, planificar proyectos y coordinar equipos se utiliza notion para darte una mejor experiencia a la hora de ver los procesos del proyecto desde el diseño hasta el desarrollo.",
           Icon: IconNotion,
         }}
       />
@@ -44,7 +44,7 @@ export default function ProcesoDeDesarrollo() {
           Subtitle: "Fase - 2",
           Title: "Diseño de Interfaz Web",
           Content:
-            "Diseño UX/UI Creación de interface pensada para los usuarios. Contenido, Wireframes y prototipado un diseño sencillo pero moderno y a la ves interactivo con el fin de hacer que los usurios se sientan agustos con el sitio web",
+            "Diseño UX/UI Creación de interface pensada para los usuarios. Contenido, Wireframes y prototipado un diseño sencillo pero moderno y a la vez interactivo con el fin de hacer que el usuario se sienta agusto con el sitio web",
           Icon: IconFigma,
         }}
       />
@@ -52,9 +52,9 @@ export default function ProcesoDeDesarrollo() {
         objeto={{
           Photo: PortDesarrollo,
           Subtitle: "Fase - 3",
-          Title: "Desarrollo Web",
+          Title: "Programación",
           Content:
-            "Ultima fase el desarrollo web se hace a través de diversos lenguajes de programación. depende del tipo del sitio web que se valla a realizar. El desarrollo web se divide, de forma general, en Frontend y Backend.",
+            "Es el proceso de crear un conjunto de instrucciones que le dicen a una computadora como realizar algún tipo de tarea. Pero no solo la acción de escribir un código para que la computadora o el software lo ejecute.",
           Icon: IconReact,
         }}
       />

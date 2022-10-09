@@ -21,8 +21,7 @@ export default function Footer() {
             <img src={Logo} alt="" />
           </Photo>
           <Content>
-            Programador fron-end dedicado, me especializo en la maquetación y
-            desarrollo de funciones creativas para el usuario...
+          Programador frontend dedicado, me especializo en la maquetación y desarrollo de funciones creativas para el usuario... 
           </Content>
         </ColFourt>
         <ColFour>

@@ -25,7 +25,6 @@ export const BtnBlack = styled.button`
  font-weight: 700;
  cursor: pointer;
  margin-top: 36px;
- transition: all 300ms;
  &:hover {
     background-color: var(--color-white);
     color: var(--color-bg-black);
