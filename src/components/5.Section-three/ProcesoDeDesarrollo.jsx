@@ -9,7 +9,7 @@ import SecionContenido from "./SecionContenido";
 import SecionContenidoTwo from "./SecionContenidoTwo";
 
 //Imagenes
-import PortNotion from "../../assets/organitation-notion.svg";
+import PortNotion from "../../assets/organitation-notion.png";
 import IconNotion from "../../assets/icon-notion.svg";
 import IconFigma from "../../assets/logo_figma.svg";
 import PortFigma from "../../assets/portadaFigma.png";
@@ -21,7 +21,7 @@ export default function ProcesoDeDesarrollo() {
     <section id="desarrollo">
       <Container>
         <WrapperTitle>
-          <ColTwo>
+          <ColTwo data-aos="fade-up">
             <TitleSectionWhite>Proceso de Desarrollo</TitleSectionWhite>
             <LineBlue />
           </ColTwo>

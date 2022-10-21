@@ -26,7 +26,9 @@ export default function Header() {
     <NavbarContainer>
       <NavbarWrapper>
         <IconLogo>
+          <a href="/" >
           <img src={Logo} alt="Logo" title="Josephleal.com" />
+          </a>
         </IconLogo>
 
         <IconLogoMobile onClick={() => ChangeClick()}>

@@ -3,9 +3,28 @@ import styled from "styled-components";
 export const SectionContact = styled.div`
   width: 100%;
   display: flex;
+  justify-content: center;
   @media screen and (max-width: 768px) {
     flex-direction: column;
   }
+`;
+export const TitleSection = styled.h2`
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--color-bg-black);
+  margin-bottom: 8px;
+  @media screen and (max-width: 525px) {
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 18px;
+    margin-top: 10px;
+  }
+`;
+export const ColTwo = styled.div`
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
 `;
 export const Formulario = styled.div`
   width: 50%;
@@ -24,16 +43,19 @@ export const Preguntas = styled.div`
   }
 `;
 export const Subtitle = styled.h3`
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 21px;
+  font-weight: 400;
   line-height: 39px;
-  color: var(--color-bg-black);
+  color: #848484;
 `;
 export const WrapperSection = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 1024px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   padding: 120px 16px;
   @media screen and (max-width: 768px) {
     padding: 42px 16px;
@@ -99,5 +121,29 @@ export const Cien = styled.div`
   }
   @media screen and (max-width: 425px) {
     width: 100%;
+  }
+`
+export const BtnContact = styled.button`
+  border: none;
+  background-color: var(--color-blue);
+  padding: 21px 52px;
+  color: var(--color-white);
+  font-weight: 500;
+  border-radius: 100px;
+  font-size: 21px;
+  margin-top: 24px;
+  transition: all 300ms;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--color-bg-black);
+  }
+`
+export const LineBlueTwoLeft = styled.div`
+  border-bottom: 1px solid var(--color-blue);
+  width: 20%;
+  margin-top: -12px;
+  margin-right: 20px;
+  @media screen and (max-width: 486px) {
+    display: none;
   }
 `

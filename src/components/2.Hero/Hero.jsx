@@ -64,7 +64,7 @@ export default function Hero() {
             initial={{ opacity: 0, x: 80 }}
             animate={{ opacity: 1, scale: 1, x: 0 }}
             transition={{
-              delay: 2
+              delay: 1
             }}
           >
             <SubtitleHero>Desarrollador Web</SubtitleHero> <LineHero />
@@ -73,7 +73,7 @@ export default function Hero() {
             as={motion.h1}
             initial={{ opacity: 0, y: 80 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
-            transition={{ delay: 2.2 }}
+            transition={{ delay: 1.2 }}
           >
             Joseph Leal 💻
           </TitleHero>
@@ -81,7 +81,7 @@ export default function Hero() {
             as={motion.p}
             initial={{ opacity: 0, y: 80 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
-            transition={{ delay: 2.4 }}
+            transition={{ delay: 1.4 }}
           >
             Programador Frontend dedicado, me especializo en la maquetación y desarrollo de funciones creativas para el usuario... 
           </ContentHero>
@@ -89,7 +89,7 @@ export default function Hero() {
             as={motion.div}
             initial={{ opacity: 0, x: 80 }}
             animate={{ opacity: 1, scale: 1, x: 0 }}
-            transition={{ delay: 4, type: 'spring', damping: 8, mass: 2}}
+            transition={{ delay: 1, type: 'spring', damping: 8, mass: 2}}
           >
             <motion.a
               href="https://github.com/jjrojaxx"
@@ -107,7 +107,7 @@ export default function Hero() {
             as={motion.div}
             initial={{ opacity: 0, y: 80 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
-            transition={{ delay: 2.6 }}
+            transition={{ delay: 1.5 }}
           >
             <img src={ArrowContact} alt="icon-Arrow" />
           </ContImg>

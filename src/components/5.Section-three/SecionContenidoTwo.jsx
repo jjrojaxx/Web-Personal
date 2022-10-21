@@ -13,7 +13,7 @@ export default function SecionContenidoTwo(props) {
     return (
       <Container>
         <WrapperSection>
-          <ContentDesarrolloTwo>
+          <ContentDesarrolloTwo data-aos="fade-right">
             <Subtitle>{props.objeto.Subtitle}</Subtitle>
             <TitleH3>{props.objeto.Title}</TitleH3>
             <Content>{props.objeto.Content}</Content>
@@ -27,7 +27,7 @@ export default function SecionContenidoTwo(props) {
             />
             </IconsProgran>
           </ContentDesarrolloTwo>
-          <PhotoL>
+          <PhotoL data-aos="fade-left">
             <motion.img 
               as={motion.div}
               whileHover={{ scale: 1.01 }}   

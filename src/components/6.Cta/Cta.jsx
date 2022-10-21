@@ -5,9 +5,9 @@ export default function Cta() {
   return (
     <Container>
       <Wrapper>
-        <TitleSectionWhite>¿ Deseas ponerte en contacto conmigo ?</TitleSectionWhite>
-        <BtnBlack>
-          <Scroll
+        <TitleSectionWhite data-aos="fade-up">¿ Deseas ponerte en contacto conmigo ?</TitleSectionWhite>
+        <BtnBlack data-aos="fade-up">
+          <Scroll 
             className="pointer"
             to="contacto"
             spy={true}

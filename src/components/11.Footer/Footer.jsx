@@ -18,7 +18,9 @@ export default function Footer() {
       <WrapperFooter>
         <ColFourt>
           <Photo>
+          <a href="/" >
             <img src={Logo} alt="" />
+          </a>
           </Photo>
           <Content>
           Programador frontend dedicado, me especializo en la maquetación y desarrollo de funciones creativas para el usuario... 

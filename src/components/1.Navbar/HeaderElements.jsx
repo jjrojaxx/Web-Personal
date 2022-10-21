@@ -40,7 +40,7 @@ export const Menu = styled.ul`
     top: 80px;
     left: ${({click}) => (click ? 0 : '-400px' )};
     flex-direction: column;
-    transition: 0.8s all ease-in;
+    transition: 0.2s all ease-in;
     background: var(--color-bg-black);
   }
 `

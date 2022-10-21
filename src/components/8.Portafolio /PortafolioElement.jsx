@@ -8,7 +8,6 @@ export const WrapperSection = styled.div`
     padding: 80px 16px;
   }
 `;
-
 export const ColTwo = styled.div`
   display: flex;
   align-items: center;
@@ -42,12 +41,12 @@ export const Card = styled.div`
   border-radius: 25px;
   width: 100%;
   padding: 10px;
+  position: relative;
+  z-index: 1;
   @media screen and (max-width: 700px) {
     padding: 10px 0px;
   }
 `;
-export const Card2 = styled(Card)``;
-export const Card3 = styled(Card)``;
 export const ContentTitle = styled.div`
   width: 100%;
   margin-bottom: 36px;
@@ -98,6 +97,7 @@ export const Wrap = styled.div`
   }
   a {
     text-decoration: none;
+    position: relative;
   }
 `;
 export const Contenido = styled.div`
@@ -106,3 +106,20 @@ export const Contenido = styled.div`
     padding-left: 0px;
   }
 `;
+export const LenguajesUse = styled.div`
+  background-color: #151b27ca;
+  padding: 10px 8px;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  z-index: 3;
+  border-radius: 20px;
+  display: flex;
+  backdrop-filter: blur(4px);
+  @media screen and (max-width: 425px) {
+
+  }
+  img{
+    margin: 0 3px;
+  }
+`

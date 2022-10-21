@@ -70,25 +70,28 @@ export const Btn = styled.button`
   margin-bottom: 12px;
   transition: all 300ms;
   &:hover {
-    background-color: var(--color-white);
-    color: var(--color-bg-black);
+    background-color: var(--color-blue);
   }
 `;
 export const BtnWhite = styled(Btn)`
   border: 1px solid #fff;
   background-color: transparent;
   color: #fff;
+  &:hover {
+    border: 1px solid var(--color-blue);
+  }
+  
 `;
 export const Redes = styled.div` 
   display: flex;
   margin-bottom: 24px;
   flex-direction: row;
   a{
-    color: var(--color-blue);
-    font-size: 48px;
+    color: var(--color-white);
+    font-size: 42px;
     margin-right: 8px;
     &:hover {
-      color: #c8c8c8;
+      color: var(--color-blue);
     }
   }
   @media screen and (max-width: 375px){

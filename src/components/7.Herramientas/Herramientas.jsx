@@ -81,13 +81,16 @@ export default function Herramientas() {
   return (
     <ContainerWhite id="lenguajes">
       <WrapperSection>
-        <ColTwo>
+        <ColTwo data-aos="fade-up"
+             data-aos-duration="8000"
+        >
           <TitleSection>Herramientas de trabajo</TitleSection>
           <LineBlue />
         </ColTwo>
 
-        <ColThree>
+        <ColThree data-aos="fade-up">
           <LenguajesT
+   
             Object={{
               Title: "Organización",
               Content:
@@ -97,6 +100,7 @@ export default function Herramientas() {
             }}
           />
           <LenguajesT
+
             Object={{
               Title: "Diseño web",
               Content:
@@ -106,6 +110,7 @@ export default function Herramientas() {
             }}
           />
           <LenguajesT
+
             Object={{
               Title: "Desarrollo Web",
               Content:
@@ -116,25 +121,24 @@ export default function Herramientas() {
           />
         </ColThree>
 
-        <ColSubtitle>
+        <ColSubtitle data-aos="fade-up">
           <Separator />
           <TitleH3>Lenguajes - Framework</TitleH3>
           <Separator />
         </ColSubtitle>
-        <ContainerIcons>
+        <ContainerIcons data-aos="fade-up">
           <WrapperIcons>
-            <ImgIcons onClick={() => ChangeClick()}>
+            <ImgIcons onMouseEnter={() => ChangeClick()}>
               <motion.img
                 src={Html}
                 alt="Html"
                 title="Click"
                 width="100%"
-                whileHover={{ rotate: 9 }}
+                whileHover={{ rotate: -9 }}
               />
               <Mostrar click={click}>Html</Mostrar>
             </ImgIcons>
-
-            <ImgIcons onClick={() => ChangeClickOne()}>
+            <ImgIcons onMouseEnter={() => ChangeClickOne()}>
               <motion.img
                 src={Css}
                 alt="Css"
@@ -146,7 +150,7 @@ export default function Herramientas() {
             </ImgIcons>
 
 
-            <ImgIcons onClick={() => ChangeClickTwo()}>
+            <ImgIcons onMouseEnter={() => ChangeClickTwo()}>
               <motion.img
                 src={JavaScript}
                 alt="JavaScript"
@@ -158,7 +162,7 @@ export default function Herramientas() {
             </ImgIcons>
 
 
-            <ImgIcons onClick={() => ChangeClickTres()}>
+            <ImgIcons onMouseEnter={() => ChangeClickTres()}>
               <motion.img
                 src={ReactIcon}
                 alt="React.js"
@@ -169,7 +173,7 @@ export default function Herramientas() {
               <MostrarTres clickTres={clickTres}>React.js</MostrarTres >
             </ImgIcons>
 
-            <ImgIcons onClick={() => ChangeClickCuatro()}>
+            <ImgIcons onMouseEnter={() => ChangeClickCuatro()}>
               <motion.img
                 src={Sass}
                 alt="Sass"
@@ -180,7 +184,7 @@ export default function Herramientas() {
               <MostrarCuatro clickCuatro={clickCuatro}>Sass</MostrarCuatro>
             </ImgIcons>
 
-            <ImgIcons onClick={() => ChangeClickCinco()}>
+            <ImgIcons onMouseEnter={() => ChangeClickCinco()}>
               <motion.img
                 src={StyledComponent}
                 alt="styled-components"
@@ -191,7 +195,7 @@ export default function Herramientas() {
               <MostrarCinco clickCinco={clickCinco}>styled components</MostrarCinco>
             </ImgIcons>
 
-            <ImgIcons onClick={() => ChangeClickSeis()}>
+            <ImgIcons onMouseEnter={() => ChangeClickSeis()}>
               <motion.img
                 src={Mui}
                 alt="Mui"
@@ -202,7 +206,7 @@ export default function Herramientas() {
               <MostrarSeis clickSeis={clickSeis} >Mui</MostrarSeis>
             </ImgIcons>
 
-            <ImgIcons onClick={() => ChangeClickSiete()}>
+            <ImgIcons onMouseEnter={() => ChangeClickSiete()}>
               <motion.img
                 src={Framer}
                 alt="Framer-Motion"
@@ -214,7 +218,7 @@ export default function Herramientas() {
             </ImgIcons>
           </WrapperIcons>
         </ContainerIcons>
-        <ColSubtitle>
+        <ColSubtitle data-aos="fade-up">
           <ContentIcons>
             Click para mostrar el contenido de estas herramientas
           </ContentIcons>

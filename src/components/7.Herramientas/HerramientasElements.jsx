@@ -72,9 +72,6 @@ export const ImgIcons = styled.div`
     padding: 8px 20px;
     transition: all 200ms;
     cursor: pointer;
-    &:hover {
-      margin-top: -10px;
-    }
   }
 `
 export const Mostrar = styled.div`

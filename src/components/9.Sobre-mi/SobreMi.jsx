@@ -24,10 +24,10 @@ export default function SobreMi() {
     <Container id="sobre">
       <WrapperSection>
         <Contenedor>
-          <Photo>
+          <Photo data-aos="fade-right">
             <img src={PhotoSobre} alt="Joseph Leal" width="100%" />
           </Photo>
-          <Contenido>
+          <Contenido data-aos="fade-left">
             <Title>¿ Sobre mi ?</Title>
             <Content>
             Hola a todos mi nombre es Joseph Leal un emprendedor por la tecnología empecé en el 2020 con html, css y Javascript creando sitos webs sencillos.

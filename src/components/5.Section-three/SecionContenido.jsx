@@ -14,7 +14,7 @@ export default function SecionContenido(props) {
   return (
     <Container>
       <WrapperSection>
-        <PhotoR>
+        <PhotoR data-aos="fade-right">
           <motion.img
             as={motion.div}
             whileHover={{ scale: 1.01 }}
@@ -25,7 +25,7 @@ export default function SecionContenido(props) {
             width="100%"
           />
         </PhotoR>
-        <ContentDesarrollo>
+        <ContentDesarrollo data-aos="fade-left">
           <Subtitle>{props.objeto.Subtitle}</Subtitle>
           <TitleH3>{props.objeto.Title}</TitleH3>
           <Content>{props.objeto.Content}</Content>
