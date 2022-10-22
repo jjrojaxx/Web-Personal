@@ -50,7 +50,7 @@ export default function Hero() {
           animate="visible"
           transition="transition"
         >
-          <img src={HeroPhoto} alt="Joseph-leal" width="100%" />
+          <img src={HeroPhoto} width="100%" alt="Joseph-leal" loading="" title="Joseph-leal"/>
         </PhotoHero>
         <SectionContent
           as={motion.div}
@@ -67,10 +67,10 @@ export default function Hero() {
               delay: 1
             }}
           >
-            <SubtitleHero>Desarrollador Web</SubtitleHero> <LineHero />
+            <SubtitleHero>Web Developer Front-End</SubtitleHero><LineHero />
           </ColTwo>
           <TitleHero
-            as={motion.h1}
+            as={motion.h2}
             initial={{ opacity: 0, y: 80 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ delay: 1.2 }}

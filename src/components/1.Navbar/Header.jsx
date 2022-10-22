@@ -27,7 +27,7 @@ export default function Header() {
       <NavbarWrapper>
         <IconLogo>
           <a href="/" >
-          <img src={Logo} alt="Logo" title="Josephleal.com" />
+          <img src={Logo} alt="Logo" title="Josephleal.com" loading="" />
           </a>
         </IconLogo>
 

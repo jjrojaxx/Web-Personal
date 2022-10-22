@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
     height: auto;
   }
 `;
-export const SubtitleHero = styled.h3`
+export const SubtitleHero = styled.h1`
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
@@ -26,7 +26,7 @@ export const SubtitleHero = styled.h3`
     text-align: center;
   }
 `
-export const TitleHero = styled.h1`
+export const TitleHero = styled.h2`
   font-size: 70px;
   font-weight: 700;
   line-height: 84px;
