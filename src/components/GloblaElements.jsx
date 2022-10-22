@@ -107,4 +107,39 @@ export const LineBlueTwo = styled.div`
     display: none;
   }
 `;
-
+//Globlal Error-404
+export const ContainerError = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: var(--color-bg-black);
+  div {
+    text-align: center;
+  }
+  h2 {
+    color: var(--color-blue);
+    font-size: 52px;
+  }
+  p {
+    font-size: 18px;
+    color: var(--color-parrafo);
+    margin-bottom: 24px;
+  }
+  button {
+    background-color: var(--color-blue);
+    border: none;
+    padding: 12px 42px;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: all 300ms;
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+`;
