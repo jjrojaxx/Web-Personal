@@ -33,7 +33,7 @@ export default function Portafolio() {
               <a href="https://papeleriaelaljibe.com/" data-aos="fade-up" target="Blank">
                 <LenguajesUse>
                   {images.map((image) => (
-                    <img src={image} alt="" />
+                    <img src={image}  alt="Lenguajes" title="Leguajes" loading="lazy" />
                   ))}
                 </LenguajesUse>
                 <Cards
@@ -49,7 +49,7 @@ export default function Portafolio() {
             <a href="https://carcrossuruguay.com/" data-aos="fade-up" target="Blank">
             <LenguajesUse>
                   {images.map((image) => (
-                    <img src={image} alt="" />
+                    <img src={image} alt="Lenguajes" title="Leguajes" loading="lazy" />
                   ))}
                 </LenguajesUse>
               <Cards
@@ -80,7 +80,7 @@ export default function Portafolio() {
             <a href="https://multicontainer.com/" data-aos="fade-up" target="Blank">
             <LenguajesUse>
                   {images.map((image) => (
-                    <img src={image} alt="" />
+                    <img src={image} alt="Lenguajes" title="Leguajes" loading="lazy"/>
                   ))}
                 </LenguajesUse>
               <Cards
@@ -96,7 +96,7 @@ export default function Portafolio() {
             <a href="https://jhoanrojas.com/" data-aos="fade-up" target="Blank">
             <LenguajesUse>
                   {imagesTwo.map((image) => (
-                    <img src={image} alt="" />
+                    <img src={image} alt="Lenguajes" title="Leguajes" loading="lazy" />
                   ))}
                 </LenguajesUse>
               <Cards

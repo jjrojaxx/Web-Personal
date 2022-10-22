@@ -11,7 +11,7 @@ export default function Cards(props) {
     return (
       <Card >
         <Photo>
-          <img src={props.objeto.Photo} alt="" width="100%" />
+          <img src={props.objeto.Photo} alt="Proyecto" width="100%" title="Proyecto" loading="lazy" />
         </Photo>
         <BgBlack>
           <CardTitle>{props.objeto.Title}</CardTitle>

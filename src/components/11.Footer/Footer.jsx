@@ -19,7 +19,7 @@ export default function Footer() {
         <ColFourt>
           <Photo>
           <a href="/" >
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="Logo" title="Joseph leal" loading="lazy"/>
           </a>
           </Photo>
           <Content>

@@ -21,8 +21,10 @@ export default function SecionContenido(props) {
             transition={{ duration: 0.3}}
             whileTap={{ scale: 0.9 }}
             src={props.objeto.Photo}
-            alt="Notion"
             width="100%"
+            alt="Portada del Proceso" 
+            title="Portada" 
+            loading="lazy"  
           />
         </PhotoR>
         <ContentDesarrollo data-aos="fade-left">
@@ -35,7 +37,9 @@ export default function SecionContenido(props) {
               whileHover={{ rotate: 360 }}
               transition={{ duration: 0.5 }}
               src={props.objeto.Icon}
-              alt="Icons"
+              alt={props.objeto.Alt}
+              loading={props.objeto.Lazy}
+              title={props.objeto.Alt}
             />
           </IconsProgran>
         </ContentDesarrollo>

@@ -25,7 +25,7 @@ export default function SobreMi() {
       <WrapperSection>
         <Contenedor>
           <Photo data-aos="fade-right">
-            <img src={PhotoSobre} alt="Joseph Leal" width="100%" />
+            <img src={PhotoSobre} alt="Joseph Leal" title="Joseph Leal" loading="lazy" width="100%" />
           </Photo>
           <Contenido data-aos="fade-left">
             <Title>¿ Sobre mi ?</Title>

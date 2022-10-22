@@ -50,7 +50,7 @@ export default function Hero() {
           animate="visible"
           transition="transition"
         >
-          <img src={HeroPhoto} width="100%" alt="Joseph-leal" loading="" title="Joseph-leal"/>
+          <img src={HeroPhoto} width="100%" alt="Joseph leal" loading="lazy" title="Joseph leal"/>
         </PhotoHero>
         <SectionContent
           as={motion.div}
@@ -109,7 +109,7 @@ export default function Hero() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ delay: 1.5 }}
           >
-            <img src={ArrowContact} alt="icon-Arrow" />
+            <img src={ArrowContact} alt="Flecha" title="Flecha" loading="lazy"/>
           </ContImg>
         </SectionContent>
       </Wrapper>

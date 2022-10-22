@@ -134,6 +134,7 @@ export default function Herramientas() {
                 alt="Html"
                 title="Click"
                 width="100%"
+                loading="lazy"
                 whileHover={{ rotate: -9 }}
               />
               <Mostrar click={click}>Html</Mostrar>
@@ -143,6 +144,7 @@ export default function Herramientas() {
                 src={Css}
                 alt="Css"
                 title="Click"
+                loading="lazy"
                 width="100%"
                 whileHover={{ rotate: -9 }}
               />
@@ -156,6 +158,7 @@ export default function Herramientas() {
                 alt="JavaScript"
                 title="Click"
                 width="100%"
+                loading="lazy"
                 whileHover={{ rotate: 9 }}
               />
               <MostrarTwo clickTwo={clickTwo}>JavaScript</MostrarTwo>
@@ -166,8 +169,9 @@ export default function Herramientas() {
               <motion.img
                 src={ReactIcon}
                 alt="React.js"
-                title="Click"
                 width="100%"
+                loading="lazy"
+                title="Click"
                 whileHover={{ rotate: -9 }}
               />
               <MostrarTres clickTres={clickTres}>React.js</MostrarTres >
@@ -179,6 +183,7 @@ export default function Herramientas() {
                 alt="Sass"
                 title="Click"
                 width="100%"
+                loading="lazy"
                 whileHover={{ rotate: 8 }}
               />
               <MostrarCuatro clickCuatro={clickCuatro}>Sass</MostrarCuatro>
@@ -190,6 +195,7 @@ export default function Herramientas() {
                 alt="styled-components"
                 title="Click"
                 width="100%"
+                loading="lazy"
                 whileHover={{ rotate: -9 }}
               />
               <MostrarCinco clickCinco={clickCinco}>styled components</MostrarCinco>
@@ -201,6 +207,7 @@ export default function Herramientas() {
                 alt="Mui"
                 title="Click"
                 width="100%"
+                loading="lazy"
                 whileHover={{ rotate: 9 }}
               />
               <MostrarSeis clickSeis={clickSeis} >Mui</MostrarSeis>
@@ -212,6 +219,7 @@ export default function Herramientas() {
                 alt="Framer-Motion"
                 title="Click"
                 width="100%"
+                loading="lazy"
                 whileHover={{ rotate: -9 }}
               />
               <MostrarSiete clickSiete={clickSiete} >Framer Motion</MostrarSiete>
@@ -234,7 +242,7 @@ function LenguajesT(props) {
       <Title className="Black">{props.Object.Title}</Title>
       <Content className="White">{props.Object.Content}</Content>
       <Icons>
-        <img src={props.Object.Icons} alt={props.Object.Alt} />
+        <img src={props.Object.Icons} alt={props.Object.Alt} loading="lazy" title="icons" />
       </Icons>
     </Lenguajes>
   );

@@ -36,6 +36,8 @@ export default function ProcesoDeDesarrollo() {
           Content:
               "La organización del tiempo es uno de los grandes retos a la hora de trabajar, planificar proyectos y coordinar equipos se utiliza notion para darte una mejor experiencia a la hora de ver los procesos del proyecto desde el diseño hasta el desarrollo.",
           Icon: IconNotion,
+          Alt:"icons",
+          Lazy:"lazy"
         }}
       />
       <SecionContenidoTwo
@@ -46,6 +48,8 @@ export default function ProcesoDeDesarrollo() {
           Content:
             "Diseño UX/UI Creación de interface pensada para los usuarios. Contenido, Wireframes y prototipado un diseño sencillo pero moderno y a la vez interactivo con el fin de hacer que el usuario se sienta agusto con el sitio web",
           Icon: IconFigma,
+          Alt:"icons",
+          Lazy:"lazy"
         }}
       />
       <SecionContenido
@@ -56,6 +60,8 @@ export default function ProcesoDeDesarrollo() {
           Content:
             "Es el proceso de crear un conjunto de instrucciones que le dicen a una computadora como realizar algún tipo de tarea. Pero no solo la acción de escribir un código para que la computadora o el software lo ejecute.",
           Icon: IconReact,
+          Alt:"icons",
+          Lazy:"lazy"
         }}
       />
     </section>
