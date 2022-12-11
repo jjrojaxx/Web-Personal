@@ -83,7 +83,7 @@ export default function Hero() {
               animate={{ opacity: 1, scale: 1, y: 0 }}
               transition={{ delay: 1.2 }}
             >
-              Joseph Leal 💻
+              José Rojas 💻
             </TitleHero>
             <ContentHero
               as={motion.p}
