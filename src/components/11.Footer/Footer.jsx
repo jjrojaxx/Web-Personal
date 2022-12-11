@@ -29,7 +29,7 @@ export default function Footer() {
         <ColFour>
           <TitleFooter>Redes Sociales</TitleFooter>
           <Link><a href="https://www.linkedin.com/in/jos%C3%A9-rojas-294ba520b/" ><AiFillLinkedin className="icons"/> Linkedin</a></Link >
-          <Link><a href="https://www.linkedin.com/in/jos%C3%A9-rojas-294ba520b/" ><AiOutlineInstagram className="icons" /> Instagram</a></Link >
+          <Link><a href="https://www.instagram.com/joseph_leal200/" ><AiOutlineInstagram className="icons" /> Instagram</a></Link >
           <Link><a href="https://twitter.com/jjrojaxx" ><AiFillTwitterSquare className="icons" /> Twitter</a></Link >
           <Link><a href="https://github.com/jjrojaxx"><AiFillGithub className="icons" /> GitHub</a></Link >
         </ColFour>
